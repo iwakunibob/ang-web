@@ -25,7 +25,7 @@ function RevSting(StrIn)
 }
 
 // AntiSpam function encodes hyperlinked email address to hide from spammers
-function AntiSpam(Tpld, User, Domn, Subj, Hlnk)
+function antispm(Tpld, User, Domn, Subj, Hlnk)
 {
    // <A> Element components
    var AElmt = new Array('<a class="mailbtn" href=\"ma', '</a>', 'ilto:', '?subject=', '\">');
