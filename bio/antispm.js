@@ -1,13 +1,10 @@
-// ANTISPAM JavaScript Function is designed to foil Address Harvesting Robots
+//    This JavaScript Function is designed to foil Address Harvesting Robots
 //    It will help prevent your address from being harvested on your web site.
 //    You may use this  script or modify with your own encryption technique.
-//    Please send your comments to Robert Laurie at
-//       bob (at) guam . uog . edu
 //
 //    Link to JavaScript file from any XHTML/HTML document by placing 
 //    in <head> element the following <script> element.
-//       <script type="text/javascript" 
-//          src="http://www.islandman.org/AntiSpam.js"></script>
+//       <script src="http://www.islandman.org/antispm.js"></script>
 //
 //    Call the AntiSpam function in <body> element of XHTML/HTML document
 //    The AntiSpam function has five parameters that must be strings
@@ -16,7 +13,7 @@
 //       Domn = Domain name in reverse (instead of ISLANDMAN use NAMDNALSI)
 //       Subj = Subject of email will automatically use this string
 //       Hlnk = Text or Element used for hyperlink (if blank will use address)
-//    Example: AntiSpam("gro", "nameht", "namdnalsi", "Your Web Site", "");
+//    Example: antispm("gro", "nameht", "namdnalsi", "Your Web Site", "");
 
 //RevString function reverses the order of characters in a string
 function RevSting(StrIn)
@@ -31,7 +28,7 @@ function RevSting(StrIn)
 function AntiSpam(Tpld, User, Domn, Subj, Hlnk)
 {
    // <A> Element components
-   var AElmt = new Array('<a href=\"ma', '</a>', 'ilto:', '?subject=', '\">');
+   var AElmt = new Array('<a class="mailbtn" href=\"ma', '</a>', 'ilto:', '?subject=', '\">');
    // Reverse character order for each component of address
    var At2 = "4;", At1 = "&#6"; // at symbol
    var Addr, LinkObj;
