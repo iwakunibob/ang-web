@@ -32,11 +32,28 @@ p {
 }
 
 #testimonials {
-  padding: 7% 15%;
   text-align: center;
   background-color: #ef8172;
   color:white;
+}
 
+.testimonial-image {
+  width: 12%;
+  border-radius: 100%;
+  margin: 20px 20px 0 0;
+}
+
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.carousel-indicators {
+  margin: 0;
+}
+
+.responsive-youtube {
+  margin: 20px;
 }
 
 #press {
@@ -53,7 +70,7 @@ p {
 .testimonial-image {
   width: 16%;
   border-radius: 100%;
-  margin: 20px;
+  margin: 20px 20px 0;
 }
 
 .feature-box {
