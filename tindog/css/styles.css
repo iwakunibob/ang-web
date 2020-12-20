@@ -85,9 +85,6 @@ p {
   margin: 0;
 }
 
-.responsive-youtube {
-  margin: 20px;
-}
 
 #press {
   background-color: #ef8172;
@@ -109,8 +106,12 @@ p {
   padding: 3% 2%;
 }
 
+.price-plan {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
 .price-text {
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   line-height: 1.5;
 }
 
