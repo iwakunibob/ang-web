@@ -46,7 +46,7 @@ p {
 
 /* rotate image */
 .title-image {
-  width: 50%;
+  width: 45%;
   right: 28%;
   top: -15%;
   transform: rotate(25deg);
