@@ -14,7 +14,6 @@
 //       hyperlink = Text or Element used for hyperlink (if blank will use address)
 //    Example: antispm("gro", "nameht", "namdnalsi", "Your Web Site", "");
 
-
 antiSpam("moc", "821lmr", "liamg", "Your Web Site", "" );
 
 //revString function reverses the order of characters in a string
