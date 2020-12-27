@@ -15,7 +15,7 @@
 //    Example: antispm("gro", "nameht", "namdnalsi", "Your Web Site", "");
 
 
-antiSpam("moc", "821lmr", "liamg", "Your Web Site", "My email" );
+antiSpam("moc", "821lmr", "liamg", "Your Web Site", "" );
 
 //revString function reverses the order of characters in a string
 function revSting(stringIn)
