@@ -20,9 +20,9 @@ antiSpam("moc", "821lmr", "liamg", "Your Web Site", "" );
 //revString function reverses the order of characters in a string
 function revSting(stringIn)
 {
-   var stringOut= "";
+   var stringOut= ""; 
    for(var i=stringIn.length-1; i>=0; i--)
-      stringOut += stringIn.charAt(i);
+      stringOut += stringIn.charAt(i); 
    return stringOut;
 }
 
